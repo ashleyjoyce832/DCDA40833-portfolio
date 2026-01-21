@@ -7,11 +7,11 @@
    CSS Variables (Color Scheme)
    ========================= */
 :root {
-    --primary-color: #873076;      /* TCU Purple */
-    --secondary-color: #3a8bed;    /* Light Purple */
-    --accent-color: #b3d4d4;       /* Gold accent */
-    --text-color: #1e1c23;            /* Dark gray for text */
-    --text-secondary: #64748b;     /* Lighter gray for captions */
+    --primary-color: #c5ebea;      /* TCU Purple */
+    --secondary-color: #778ca6;    /* Light Purple */
+    --accent-color: #223e3b;       /* Gold accent */
+    --text-color: #212121;            /* Dark gray for text */
+    --text-secondary: #4b5a6f;     /* Lighter gray for captions */
     --bg-color: #f4f4f4;           /* Light background */
     --white: #ffffff;
 }
@@ -49,12 +49,14 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: #4b5a6f;
     margin: 0 0 0.5rem 0;
     font-size: 2rem;
 }
 
 header p {
+    color: #4b5a6f;
+    /* added in color here because I used a lighter background where you couldn't mready white text */
     margin: 0;
     opacity: 0.9;
     font-size: 1.1rem;
