@@ -7,11 +7,11 @@
    CSS Variables (Color Scheme)
    ========================= */
 :root {
-    --primary-color: #c5ebea;      /* TCU Purple */
-    --secondary-color: #778ca6;    /* Light Purple */
-    --accent-color: #223e3b;       /* Gold accent */
-    --text-color: #212121;            /* Dark gray for text */
-    --text-secondary: #4b5a6f;     /* Lighter gray for captions */
+    --primary-color: #e3dfce;      /* white*/
+    --secondary-color: #94b1c8;    /* Light Blue */
+    --accent-color: #5b0d14;       /* Burgundy */
+    --text-color: #1a0905;            /* Dark gray for text */
+    --text-secondary: #1a0905;     /* Dark gray for captions */
     --bg-color: #f4f4f4;           /* Light background */
     --white: #ffffff;
 }
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: -apple-system, Arial, Helvetica, sans-serif, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -49,13 +49,13 @@ header {
 }
 
 header h1 {
-    color: #4b5a6f;
+    color: #4c050c;
     margin: 0 0 0.5rem 0;
     font-size: 2rem;
 }
 
 header p {
-    color: #4b5a6f;
+    color: #94b1c8;
     /* added in color here because I used a lighter background where you couldn't mready white text */
     margin: 0;
     opacity: 0.9;
@@ -63,7 +63,7 @@ header p {
 }
 
 nav {
-    background-color: #3d1461;
+    background-color: #94b1c8;
     padding: 0.75rem;
     display: flex;              /* Make nav a flex container */
     justify-content: center;    /* Center the ul inside nav */
