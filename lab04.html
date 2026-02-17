@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau Visualization | Ashley Joyce</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/nav.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="lab04.html" class="active">Lab 4: Data Visualization</a>
-            <!-- Add more lab links as the semester progresses -->
+            <button class="nav-toggle" type="button" aria-controls="site-nav-list" aria-expanded="false">
+                ☰ <span class="sr-only">Menu</span>
+            </button>
+            <ul id="site-nav-list" class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lab02.html">Lab 2: AI Experimentation</a></li>
+                <li><a href="lab03.html">Lab 3: Visualization Critique</a></li>
+                <li><a href="lab04.html" class="active">Lab 4: Data Visualization</a></li>
+                <li><a href="lab5.html">Lab 5</a></li>
+                <li><a href="hometown-map.html">Hometown Map</a></li>
+            </ul>
         </nav>
         <h1>Data Visualization in Tableau Public</h1>
     </header>
